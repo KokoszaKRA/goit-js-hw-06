@@ -12,3 +12,37 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+const newGallery = document.querySelector("ul.gallery")
+
+const newGalleryItem = images.forEach(el => {
+  newGallery.insertAdjacentHTML("afterbegin",`
+  <li class = "picture"> 
+    <img src="${el.url}" alt="${el.alt}" width="300"/> 
+  </li>`);
+});
+
+console.log(newGalleryItem);
+
+const GalleryItem = document.querySelectorAll("ul.gallery>li.picture");
+newGallery.style.gap = "20px";
+newGallery.style.listStyle = "none";
+newGallery.style.flexDirection = "column";
+newGallery.style.display = "flex";
+newGallery.style.alignItems = "center";
+newGallery.style.justifyContent = "center";
+
+
+const body = document.body;
+console.log(body);
+
+const goBack = body.firstElementChild;
+console.log(goBack);
+
+goBack.style.gap = "20px";
+goBack.style.listStyle = "none";
+goBack.style.flexDirection = "column";
+goBack.style.display = "flex";
+goBack.style.alignItems = "center";
+goBack.style.justifyContent = "center";
+
