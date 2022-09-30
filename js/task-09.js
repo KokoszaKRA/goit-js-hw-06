@@ -7,7 +7,7 @@ function getRandomHexColor() {
 return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-btn.addEventListener("click", e => {
+btn.addEventListener("click", ev => {
 
   body.style.backgroundColor = `${getRandomHexColor()}`;
   bgColor.textContent = `${getRandomHexColor()}`;

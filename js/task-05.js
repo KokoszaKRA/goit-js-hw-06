@@ -7,7 +7,7 @@ input.addEventListener("input", (el) => {
     
 });
 
-// PAGE STYKING
+// PAGE STYLING
 const box = document.body;
 
 box.style.listStyle = "none";
