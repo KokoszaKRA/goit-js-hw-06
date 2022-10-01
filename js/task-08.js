@@ -10,7 +10,7 @@ function handleSubmit(event) {
         return alert("Wypełni wszystkie pola !");
     }
     
-    alert(`Email: ${email.value}, Password: ${password.value}`);
+    console.log(`Email: ${email.value}, Password: ${password.value}`);
     event.currentTarget.reset();
 }
 

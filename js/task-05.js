@@ -7,11 +7,3 @@ input.addEventListener("input", (el) => {
     
 });
 
-// PAGE STYLING
-const box = document.body;
-
-box.style.listStyle = "none";
-box.style.flexDirection = "column";
-box.style.display = "flex";
-box.style.alignItems = "center";
-box.style.justifyContent = "center";

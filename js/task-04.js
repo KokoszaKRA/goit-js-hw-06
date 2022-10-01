@@ -13,11 +13,3 @@ const decrement = () => {
 buttonDecrement.addEventListener("click", decrement);
 buttonIncrement.addEventListener("click", increment);
 
-// PAGE STYKING
-const box = document.body;
-
-box.style.listStyle = "none";
-box.style.flexDirection = "column";
-box.style.display = "flex";
-box.style.alignItems = "center";
-box.style.justifyContent = "center";
