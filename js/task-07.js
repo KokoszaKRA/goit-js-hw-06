@@ -5,7 +5,6 @@ const text = document.querySelector('span#text');
 //     text.style.fontSize = `${ev.currentTarget.value}px`;    
 // });
 
-
 const sizeChange = () => { 
     let slider = sizeText.value + "px";
     text.style.fontSize = slider;
