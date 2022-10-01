@@ -6,4 +6,3 @@ input.addEventListener("input", (el) => {
     else output.textContent = el.currentTarget.value;    
     
 });
-
